@@ -18,6 +18,7 @@ body {
 
 .content {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 
@@ -31,6 +32,7 @@ body {
 #mainNavbar .navbar-brand {
     color: #EA1C2C;
     font-weight: 400;
+    font-size: 1.25em;
 }
 
 #mainNavbar .nav-link {
@@ -47,6 +49,11 @@ body {
 #headingGroup h1 {
     font-weight: 100;
     font-size: 3em;    
+}
+
+.navbar.scrolled {
+    background: #d4a373;
+    transition: background 500ms;
 }
 
 @media (max-width: 1400px) {
