@@ -1,5 +1,5 @@
 body {
-    background-color: #f5d9df;
+    background-color: #ddbea9;
     font-family: "Nunito", sans-serif;
 }
 
@@ -20,3 +20,16 @@ body {
     color: #EA1C2C;
 }
 
+#headingGroup span {
+    color: #EA1C2C;;
+}
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3em;    
+}
+
+@media (max-width: 1400px) {
+    #headingGroup h1 {
+        font-size: 2em;    
+    }
+}
