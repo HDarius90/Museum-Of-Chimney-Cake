@@ -10,6 +10,7 @@ body {
 
 #mainNavbar .navbar-brand {
     color: #EA1C2C;
+    font-weight: 400;
 }
 
 #mainNavbar .nav-link {
